@@ -1,8 +1,7 @@
 import os
-from app import app
-from app.routes.routes import blueprint
+from app import create_app
 
-app.register_blueprint(blueprint)
+app = create_app()
 
 production = os.environ.get("PRODUCTION", False)
 
