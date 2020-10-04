@@ -1,4 +1,4 @@
-[!screenshot](https://github.com/Harry-Lees/Spotify-Playlist-Generator1/blob/master/.github/screenshot.png) 
+![screenshot](https://github.com/Harry-Lees/Spotify-Playlist-Generator1/blob/master/.github/screenshot.png) 
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
