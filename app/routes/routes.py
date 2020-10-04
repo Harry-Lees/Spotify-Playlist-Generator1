@@ -1,8 +1,8 @@
 import ast
 import json
 import requests
+import os
 from app.api.handler import SpotifyHandler
-from secrets import CLIENT_ID, CLIENT_SECRET
 from app.api.spotify_client import SpotifyClient
 from flask import render_template, Blueprint, request, redirect, url_for, session
 
