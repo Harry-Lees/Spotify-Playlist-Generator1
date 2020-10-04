@@ -17,7 +17,7 @@ A Flask web app to generate a Spotify playlist based on selected tracks and pers
 ### Built With
 This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 * [Bootstrap](https://getbootstrap.com)
-* [Flask](https://jquery.com)
+* [Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
