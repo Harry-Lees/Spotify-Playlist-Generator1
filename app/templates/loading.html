@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+
+
+    <body class="text-break">
+        <div class="container text-center hi ">
+            <p class="main-p">Please wait, we are getting your plalist information</p>
+            <div class="container text-center hi">
+                <img id="loading-gif" src="../static/images/spinner.gif" alt="">
+            </div>
+        </div>
+    </body>
+
+
+        <script type="text/javascript">
+            $.ajax({
+                type: 'POST',
+                url: '/load',
+                success: function () {
+                    window.location.replace('/load');
+                }
+            });
+        </script>
+
+{% endblock %}
